@@ -1,0 +1,1 @@
+import{bW as a}from"./index-768c9aff.js";import{g as e}from"./appStore-41e2c55e.js";const i=a("app-cat-store",{state:()=>({catId:0,mineApps:[]}),actions:{setCatId(t){this.catId=t},async queryMineApps(){var s;const t=await e();this.mineApps=((s=t==null?void 0:t.data)==null?void 0:s.rows)||[]}}});export{i as u};

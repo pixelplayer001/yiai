@@ -4,19 +4,19 @@ node_modules/**
 node_modules/*
 ./node_modules/*
 ./*.zip/*
-/dist/
+##/dist/
 /chat/build/*
 /chat/build
 
 # admin
 node_modules/
-/dist/
+##/dist/
 
 # service
 node_modules/
 /service/.env
 service/**/.env
-/dist/
+##/dist/
 
 
 .idea/
